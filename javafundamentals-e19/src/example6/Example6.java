@@ -7,6 +7,7 @@ public class Example6 {
     * there is tight coupling between Musician and Piano. Say in future the Musician switched to playing
     * Guitar instead of Piano we need to replace in Musician class Piano with Guitar
     * Interface allows us to solve this problem by achieving loose coupling between Musician and its dependency
+    * NOTE: Don't over-engineer only use interfaces when needed.
     *
     * Need for default method in interface : There can be a default implementation for a behaviour and then later
     * for any reason if it needs to have a different implementation it can be overridden in the class
